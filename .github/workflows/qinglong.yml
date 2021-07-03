@@ -37,6 +37,6 @@ jobs:
         if: env.PAT
         with:
           source_repo: "https://github.com/Zy143L/qinglong.git"
-          source_branch: "main"
+          source_branch: "master"
           destination_branch: "qinglong"
           github_token: ${{ secrets.PAT }}
